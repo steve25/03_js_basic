@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Todo App</title>
+    <link rel="stylesheet" href="./assets/styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 id="logo"></h1>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./contact.html">Contact us</a></li>
+          <li><a href="./aboout.html">About me</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <div class="add-task">
+        <form id="add-form">
+          <label for="task-input">Add new task:</label>
+          <input type="text" id="task-input" name="task-input" />
+          <button class="add-button">Add task</button>
+        </form>
+      </div>
+
+      <hr />
+
+      <ul id="task-list"></ul>
+    </main>
+
+    <hr />
+
+    <footer>
+      <p><span id="footer-name"></span> &copy; 2024 by StEvE</p>
+    </footer>
+
+    <script src="./assets/scripts/main.js"></script>
+  </body>
+</html>
